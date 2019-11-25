@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DataType",
+            "request": "launch",
+            "mainClass": "DataType"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EmpTest",
+            "request": "launch",
+            "mainClass": "EmpTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dog",
+            "request": "launch",
+            "mainClass": "Dog"
+        }
+    ]
+}
