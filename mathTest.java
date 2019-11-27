@@ -58,6 +58,21 @@ public class mathTest{
         System.out.println(Math.round(3.4)); //四舍五入
     }
 
+    //比较大小
+    public void maxmin(){
+        System.out.println(Math.max(3,4));
+        System.out.println(Math.min(3,4));
+    }
+    
+    //自然指数e
+    public void EXPLOG(){
+        int a = 2;
+        double b = 7.3891;
+        System.out.printf("e 的值为 %.2f%n", Math.E);
+        System.out.printf("e的平方：%.4f%n",Math.exp(a));
+        System.out.printf("e的平方：%f%n",Math.log(b));
+    }
+
     public static void main ( String []args){
         mathTest maths = new mathTest();
         // maths.xValues();
@@ -67,6 +82,8 @@ public class mathTest{
         // maths.tostring();
         // maths.parseint();
         // maths.absolute();
-        maths.rounded();
+        // maths.rounded();
+        // maths.maxmin();
+        maths.EXPLOG();
     }
 }
