@@ -21,7 +21,10 @@ public class Zhengze {
         String pattern = "(\\D*)(\\d+)(.*)";
         // 创建Pattern对象
         Pattern r = Pattern.compile(pattern);
-        //创建matcher对象
+          System.out.println("r: " + r );
+          System.out.println("pattern: " + pattern );
+        // 创建matcher对象
+        // Matcher m = r.matcher(this.str);
         Matcher m = r.matcher(this.str);
         if (m.find( )) {
             System.out.println("Found value: " + m.group(0) );

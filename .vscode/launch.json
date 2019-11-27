@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - mathTest",
+            "request": "launch",
+            "mainClass": "mathTest",
+            "projectName": "java_dcb5429d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Zhengze",
             "request": "launch",
             "mainClass": "Zhengze",
