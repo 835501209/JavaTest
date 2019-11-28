@@ -1,6 +1,6 @@
-public class mathTest{
+public class MathTest{
     
-    public mathTest(){
+    public MathTest(){
 
     }
 
@@ -99,7 +99,7 @@ public class mathTest{
     }
 
     public static void main ( String []args){
-        mathTest maths = new mathTest();
+        MathTest maths = new MathTest();
         // maths.xValues();
         // maths.compare();
         // maths.equal();

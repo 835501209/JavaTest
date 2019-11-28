@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ArrayTest",
+            "request": "launch",
+            "mainClass": "ArrayTest",
+            "projectName": "java_dcb5429d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CharacterTest",
+            "request": "launch",
+            "mainClass": "CharacterTest",
+            "projectName": "java_dcb5429d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - mathTest",
             "request": "launch",
             "mainClass": "mathTest",
