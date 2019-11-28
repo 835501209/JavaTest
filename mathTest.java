@@ -70,7 +70,32 @@ public class mathTest{
         double b = 7.3891;
         System.out.printf("e 的值为 %.2f%n", Math.E);
         System.out.printf("e的平方：%.4f%n",Math.exp(a));
-        System.out.printf("e的平方：%f%n",Math.log(b));
+        System.out.printf("底数为：%f%n",Math.log(b));
+    }
+
+    //平方根方
+    public void PowSqrt(){
+        int  a = 2 ;
+        int b =4;
+        System.out.println(Math.pow(a,b));
+        System.out.println(Math.sqrt(b));
+    }
+
+    //三角函数
+    public void trigonometric(){
+        System.out.println("Math.PI:"+Math.PI);  
+        double deg = Math.toRadians(30.0);   //角度转为弧度
+        double ang = Math.toDegrees(90.0);   //转为角度
+        System.out.println("弧度:"+deg);   
+        System.out.println("角度:"+ang);   
+        System.out.println("正弦:"+Math.sin(deg));   
+        System.out.println("余弦:"+Math.cos(deg));   
+        System.out.println("正切:"+Math.tan(deg));   
+        System.out.println("余切:"+Math.atan(deg));   
+    }
+
+    public void Random(){
+        System.out.println(100*Math.random()) ;
     }
 
     public static void main ( String []args){
@@ -84,6 +109,9 @@ public class mathTest{
         // maths.absolute();
         // maths.rounded();
         // maths.maxmin();
-        maths.EXPLOG();
+        // maths.EXPLOG();
+        // maths.PowSqrt();
+        maths.trigonometric();
+        // maths.Random();
     }
 }
