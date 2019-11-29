@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DateTest",
+            "request": "launch",
+            "mainClass": "DateTest",
+            "projectName": "java_dcb5429d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ArrayTest",
             "request": "launch",
             "mainClass": "ArrayTest",
