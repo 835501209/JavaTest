@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestSuperSub",
+            "request": "launch",
+            "mainClass": "TestSuperSub",
+            "projectName": "java_dcb5429d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExtendTest",
+            "request": "launch",
+            "mainClass": "ExtendTest",
+            "projectName": "java_dcb5429d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SystemTest",
             "request": "launch",
             "mainClass": "SystemTest",
