@@ -16,9 +16,9 @@ class Cat extends Animal { // 注意类名不要和其他的重复，其他文�
 }
 
 class Pig extends Cat {
-    // void eat() {
-    //     System.out.println("pig:eat");
-    // }
+    void eat() {
+        System.out.println("pig:eat");
+    }
 
     void eatTest() {
         this.eat(); // this 调用自己的方法
