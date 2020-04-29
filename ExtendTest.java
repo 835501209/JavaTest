@@ -33,6 +33,7 @@ public class ExtendTest {
         // Cat d = new Cat();
         // d.eat();
         Pig e = new Pig();
-        e.eatTest();
+        // e.eatTest();
+        e.eat();
     }
 }

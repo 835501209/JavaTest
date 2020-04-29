@@ -17,7 +17,7 @@ public class CharacterTest{
         System.out.println(Character.isLowerCase('a'));    //是否为小写字符
         System.out.println(Character.toUpperCase('b'));    //转为大写字符
         System.out.println(Character.toLowerCase('B'));    //转为小写字符
-        System.out.println(Character.toString(68));        //转为字符类型返回,长度为1,数字代表ASCII码
+        // System.out.println(Character.toString(68));        //转为字符类型返回,长度为1,数字代表ASCII码
     }
 
     public static void main(String [] args){

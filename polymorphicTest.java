@@ -9,7 +9,7 @@ public class polymorphicTest{
             c.work();
         }
         else if(a instanceof Asen){
-            Asen d = (Asen)a
+            Asen d = (Asen)a;
         }
     }
 }

@@ -1,91 +1,119 @@
 {
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - TestSuperSub",
-            "request": "launch",
-            "mainClass": "TestSuperSub",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ExtendTest",
-            "request": "launch",
-            "mainClass": "ExtendTest",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SystemTest",
-            "request": "launch",
-            "mainClass": "SystemTest",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - DateTest",
-            "request": "launch",
-            "mainClass": "DateTest",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ArrayTest",
-            "request": "launch",
-            "mainClass": "ArrayTest",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - CharacterTest",
-            "request": "launch",
-            "mainClass": "CharacterTest",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - mathTest",
-            "request": "launch",
-            "mainClass": "mathTest",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Zhengze",
-            "request": "launch",
-            "mainClass": "Zhengze",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Test",
-            "request": "launch",
-            "mainClass": "Test",
-            "projectName": "java_dcb5429d"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - HelloWorld",
-            "request": "launch",
-            "mainClass": "HelloWorld"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - DataType",
-            "request": "launch",
-            "mainClass": "DataType"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - EmpTest",
-            "request": "launch",
-            "mainClass": "EmpTest"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Dog",
-            "request": "launch",
-            "mainClass": "Dog"
-        }
-    ]
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - polymorphicTest",
+      "request": "launch",
+      "mainClass": "polymorphicTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - mathTest",
+      "request": "launch",
+      "mainClass": "mathTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ArrayTest<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "ArrayTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-CharacterTest<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "CharacterTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DataType<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "DataType",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DateTest<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "DateTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Dog<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "Dog",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-EmpTest<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "EmpTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ExtendTest<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "ExtendTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-HelloWorld<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-MathTest<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "MathTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SystemTest<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "SystemTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Test<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-TestSuperSub<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "TestSuperSub",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Zhengze<JavaTest_c39df5d8>",
+      "request": "launch",
+      "mainClass": "Zhengze",
+      "projectName": "JavaTest_c39df5d8"
+    }
+  ]
 }

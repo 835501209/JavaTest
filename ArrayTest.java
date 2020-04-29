@@ -33,18 +33,18 @@ public class ArrayTest {
     public static void main(String args[]) {
         ArrayTest arr = new ArrayTest();
         // printArray(new int[]{3, 1, 2, 6, 4, 2});
-        // int[] seven = arr.sort(new int[] { 3, 1, 2, 6, 4, 2, 4, 2 });
+        int[] seven = arr.sort(new int[] { 3, 1, 2, 6, 4, 2, 4, 2 });
 
-        // for (int i = 0; i < seven.length; i++) {
-        //     System.out.print(seven[i] + " ");
-        // }
+        for (int i = 0; i < seven.length; i++) {
+            System.out.print(seven[i] + " ");
+        }
 
-        //for-Each循环
+        // for-Each循环
         // for(int key:seven){
         //     System.out.print(key+" ");
         // }
 
         //多维数组
-        arr.multidimensional();
+        // arr.multidimensional();
     }
 }
