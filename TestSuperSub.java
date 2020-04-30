@@ -1,3 +1,4 @@
+//继承
 class SuperClass {
     private int n;
     SuperClass(){

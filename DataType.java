@@ -1,3 +1,4 @@
+//变量类型
 public class DataType{
     byte a;
     short b;

@@ -1,3 +1,4 @@
+// 字符串方法
 public class CharacterTest{
     public CharacterTest(){
 

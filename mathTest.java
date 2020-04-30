@@ -1,3 +1,4 @@
+// 数学方法
 public class mathTest {
 
     public mathTest() {
