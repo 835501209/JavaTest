@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - interfaceTestTwo",
+      "request": "launch",
+      "mainClass": "interfaceTestTwo",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ScannerTest",
+      "request": "launch",
+      "mainClass": "ScannerTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - polymorphicTest",
       "request": "launch",
       "mainClass": "polymorphicTest",

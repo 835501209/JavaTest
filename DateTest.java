@@ -1,7 +1,7 @@
 import java.util.Date;
 import java.text.*;
 import java.util.*;
-
+ //时间类
 public class DateTest {
     public DateTest() {
 
@@ -65,7 +65,7 @@ public class DateTest {
         // catch(Exception e){
 
         // }
-        // time.Interval();
-        time.Calendars();
+        time.Interval();
+        // time.Calendars();
     }
 }
