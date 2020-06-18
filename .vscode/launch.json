@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - packageTest",
+      "request": "launch",
+      "mainClass": "packageTest",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - teaMac",
+      "request": "launch",
+      "mainClass": "packageTea.teaMac",
+      "projectName": "JavaTest_c39df5d8"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - interfaceTestTwo",
       "request": "launch",
       "mainClass": "interfaceTestTwo",
